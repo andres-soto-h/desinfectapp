@@ -32,9 +32,9 @@
         autoplaySpeed: 6000,
         dots: false,
         fade: true,
-        arrows: false,
-        prevArrow: '<button type="button" class="btn btn primary"><i class="ti-shift-left"></i></button>',
-        nextArrow: '<button type="button" class="btn btn primary"><i class="ti-shift-right"></i></button>',
+        arrows: true,
+        prevArrow: '<a class="btn-slide-left"><i class="fas fa-chevron-left"></i></a>',
+        nextArrow: '<a class="btn-slide-right"><i class="fas fa-chevron-right"></i></a>',
         responsive: [{
             breakpoint: 1024,
             settings: {
@@ -48,7 +48,7 @@
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              arrows: false
+              arrows: true
             }
           },
           {
@@ -56,7 +56,7 @@
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              arrows: false
+              arrows: true
             }
           }
         ]
@@ -91,9 +91,9 @@
         speed: 1000,
         autoplay:true,
         loop:true,
-        arrows: false,
-        prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
-        nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
+        arrows: true,
+        prevArrow: '<button type="button" class="btn"><i class="ti-angle-left"></i></button>',
+        nextArrow: '<button type="button" class="btn"><i class="ti-angle-right"></i></button>',
         slidesToShow: 1,
         slidesToScroll: 1,
         responsive: [

@@ -2658,7 +2658,7 @@ hr {
 }
 
 .slicknav_menu .slicknav_icon-bar {
-    background-color: #ff5c97 !important
+    background-color: #101411 !important
 }
 
 .slicknav_nav {
@@ -2941,13 +2941,22 @@ hr {
 }
 
 .slider-area .hero__img img {
-    max-width: 584px;
-    max-height: 607px
+    max-width: 384px;
+    margin:0 auto;
+    margin-top: 50px;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) {
     .slider-area .hero__img img {
-        max-width: 386px
+        max-width: 486px
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .slider-area .hero__img img {
+        margin:0 auto;
+        margin-top: 50px;
+        max-width: 286px
     }
 }
 
@@ -3776,7 +3785,8 @@ hr {
     padding: 64px 69px 54px 78px;
     background-repeat: no-repeat;
     border-radius: 10px;
-    position: relative
+    position: relative;
+    margin-top:100px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -6981,5 +6991,37 @@ b, sup, sub, u, del {
 }
 
 .feature-area figcaption h2{
+    font-size: 40px;
+}
+
+.btn-slide-left{
+    position: absolute;
+    width: 50px;
+    top:300px;
+    left:0;
+    margin:20px;
+    background-color: rgba(0, 0, 0, 0.0); 
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.btn-slide-right{
+    position: absolute;
+    width: 50px;
+    top:300px;
+    right: 0;
+    margin:20px;
+    background-color: rgba(0, 0, 0, 0.0); 
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 40px;
 }
