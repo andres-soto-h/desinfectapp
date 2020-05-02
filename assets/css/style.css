@@ -448,8 +448,19 @@ hr {
 
 .hero-btn {
     padding: 30px 56px;
-    margin-left: 100px;
+    margin-left:100px;
 }
+
+
+@media (min-width: 768px){
+
+    .hero-btn {
+        padding: 30px 56px;
+        margin-left: 50%;
+    }
+    
+}
+
 
 .border-btn {
     background: none;
