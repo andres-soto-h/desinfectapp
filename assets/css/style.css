@@ -447,7 +447,8 @@ hr {
 }
 
 .hero-btn {
-    padding: 30px 56px
+    padding: 30px 56px;
+    margin-left: 100px;
 }
 
 .border-btn {
@@ -2891,6 +2892,7 @@ hr {
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 14px;
+    margin-left: 100px;
     color: #2b4b80;
     font-family: "Poppins", sans-serif;
     line-height: 1.2;
@@ -2921,7 +2923,7 @@ hr {
 
 .slider-area .hero__caption p {
     margin-bottom: 54px;
-    padding-right: 155px
+    padding-left: 100px
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -6949,8 +6951,35 @@ b, sup, sub, u, del {
     margin-bottom: 10px
 }
 
-.hero__img {
-    -webkit-animation-duration: 3000ms;
-    -webkit-animation-iteration-count: infinite;
+.whatsapp-api-link{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:90px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
 
+.whatsapp-api{
+	margin-top:16px;
+}
+
+.singup-form textarea {
+	height: 140px;
+	padding: 15px 28px 10px;
+	border-radius: 20px;
+	resize: none;
+}
+.contact-form {
+	padding-top: 10px;
+}
+
+.feature-area figcaption h2{
+    font-size: 40px;
 }
