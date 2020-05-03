@@ -233,25 +233,25 @@
                         </div>
                         <div class="col-xl-5 col-lg-5 col-md-12">
 
-                            <form>
+                            <form class="contact-form">
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Correo electrónico</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="alguien@micorreo.com">
+                                    <label for="email">Correo electrónico</label>
+                                    <input type="email" class="form-control" id="email" name="email_field" aria-describedby="emailHelp" placeholder="alguien@micorreo.com">
+                                    <input type="hidden" id="date" name="date_field" value="CurrentDate">
                                 </div>
                                 <div class="form-group">
                                     <label for="telefono">Teléfono</label>
-                                    <input type="text" class="form-control" id="telefono" placeholder="(3)(4)12345678">
+                                    <input type="text" class="form-control" name="phone_field" id="telefono" placeholder="(3)(4)12345678">
                                 </div>
                                 <div class="form-group">
                                     <label for="direccion">Dirección</label>
-                                    <input type="text" class="form-control" id="direccion" placeholder="Carrera 12 # 34 - 56, Medellin">
+                                    <input type="text" class="form-control" id="direccion" name="address_field" placeholder="Carrera 12 # 34 - 56, Medellin">
                                 </div>
                                 <div class="form-group">
                                     <label for="mensaje">Mensaje</label>
-                                    <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                                    <textarea class="form-control" name="message_field" id="mensaje" rows="3"></textarea>
                                 </div>
-
-                                <a href="#" class="btn btn-ans btn-block">Enviar</a>
+                                <button type="submit" id="submit-form" class="btn btn-ans btn-block">Submit</button>
 
                             </form>
 
@@ -354,6 +354,8 @@
     </footer>
 
     <!-- JS here -->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
     <!-- All JS Custom Plugins Link Here here -->
     <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>

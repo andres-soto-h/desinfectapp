@@ -1,31 +1,46 @@
-    // -------   Mail Send ajax
+var d = new Date();
 
-     $(document).ready(function() {
-        var form = $('#myForm'); // contact form
-        var submit = $('.submit-btn'); // submit button
-        var alert = $('.alert-msg'); // alert div for show alert message
+// Set the value of the "date" field
+document.getElementById("date").value = d.toDateString();
 
-        // form submit event
-        form.on('submit', function(e) {
-            e.preventDefault(); // prevent default form submit
+(function($) {
+    $(document).ready(function() {
 
-            $.ajax({
-                url: 'mail.php', // form action url
-                type: 'POST', // form submit method get/post
-                dataType: 'html', // request type html/json/xml
-                data: form.serialize(), // serialize form data
-                beforeSend: function() {
-                    alert.fadeOut();
-                    submit.html('Sending....'); // change submit button text
-                },
-                success: function(data) {
-                    alert.html(data).fadeIn(); // fade in response data
-                    form.trigger('reset'); // reset form
-                    submit.attr("style", "display: none !important");; // reset submit button text
-                },
-                error: function(e) {
-                    console.log(e)
-                }
-            });
-        });
+        var form = $('.contact-form'),
+            url = 'https://script.google.com/macros/s/AKfycbzf1bbjBE7dHEqwdgyHswI5y7QCteVfrb2ryjMVCnrrObGHDWAa/exec'
+
+
+        $('#submit-form').on('click', function(e) {
+            e.preventDefault();
+            var jqxhr = $.ajax({
+                url: url,
+                method: "GET",
+                dataType: "json",
+                data: form.serializeObject()
+            }).success(
+                Swal.fire(
+                    '¡Muy bien!',
+                    'Pronto nos pondremos en contacto contigo.',
+                    'success'
+                )
+            );
+        })
+
     });
+})(jQuery);
+
+$.fn.serializeObject = function() {
+    var o = {};
+    var a = this.serializeArray();
+    $.each(a, function() {
+        if (o[this.name]) {
+            if (!o[this.name].push) {
+                o[this.name] = [o[this.name]];
+            }
+            o[this.name].push(this.value || '');
+        } else {
+            o[this.name] = this.value || '';
+        }
+    });
+    return o;
+};
