@@ -132,7 +132,12 @@ body {
     font-style: normal
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Poppins", sans-serif;
     color: #2b4b80;
     margin-top: 0px;
@@ -187,7 +192,8 @@ p {
     clear: both
 }
 
-a, .button {
+a,
+.button {
     -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -195,7 +201,8 @@ a, .button {
     transition: all .3s ease-out 0s
 }
 
-a:focus, .button:focus {
+a:focus,
+.button:focus {
     text-decoration: none;
     outline: none
 }
@@ -208,16 +215,24 @@ a:hover {
     color: #fff
 }
 
-a:focus, a:hover, .portfolio-cat a:hover, .footer -menu li a:hover {
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
     text-decoration: none
 }
 
-a, button {
+a,
+button {
     color: #fff;
     outline: medium none
 }
 
-button:focus, input:focus, input:focus, textarea, textarea:focus {
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
     outline: 0
 }
 
@@ -236,7 +251,12 @@ input:focus::-moz-placeholder {
     text-transform: capitalize
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
     color: inherit
 }
 
@@ -441,26 +461,23 @@ hr {
     color: #565e5a
 }
 
-.btn.focus, .btn:focus {
+.btn.focus,
+.btn:focus {
     outline: 0;
     box-shadow: none
 }
 
 .hero-btn {
     padding: 30px 56px;
-    margin-left:80px;
+    margin-left: 80px;
 }
 
-
-@media (min-width: 768px){
-
+@media (min-width: 768px) {
     .hero-btn {
         padding: 30px 56px;
         margin-left: 80px;
     }
-    
 }
-
 
 .border-btn {
     background: none;
@@ -2244,28 +2261,28 @@ hr {
 }
 
 .create-padding {
-    padding-top: 240px;
-    padding-bottom: 190px
+    padding-top: 60px;
+    padding-bottom: 60px
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .create-padding {
-        padding-top: 240px;
-        padding-bottom: 190px
+        padding-top: 60px;
+        padding-bottom: 60px
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .create-padding {
-        padding-top: 240px;
-        padding-bottom: 190px
+        padding-top: 60px;
+        padding-bottom: 60px
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .create-padding {
-        padding-top: 120px;
-        padding-bottom: 95px
+        padding-top: 60px;
+        padding-bottom: 60px
     }
 }
 
@@ -2591,7 +2608,7 @@ hr {
 }
 
 .main-header .main-menu ul li:hover>a {
-    color: #ff5c97
+    color: #3bc246
 }
 
 .main-header .main-menu ul ul.submenu {
@@ -2686,7 +2703,7 @@ hr {
 
 .slicknav_menu .slicknav_nav a:hover {
     background: transparent;
-    color: #ff5c97
+    color: #37b448
 }
 
 .slicknav_menu {
@@ -2953,7 +2970,7 @@ hr {
 
 .slider-area .hero__img img {
     max-width: 384px;
-    margin:0 auto;
+    margin: 0 auto;
     margin-top: 50px;
 }
 
@@ -2965,7 +2982,7 @@ hr {
 
 @media only screen and (max-width: 700px) {
     .slider-area .hero__img img {
-        margin:0 auto;
+        margin: 0 auto;
         margin-top: 50px;
         max-width: 286px
     }
@@ -3337,7 +3354,7 @@ hr {
 }
 
 .we-create-area .we-create-img img {
-    width: 100%
+    width: 90%
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3690,7 +3707,7 @@ hr {
 }
 
 .visit-area .single-visited .visited-cap h3 a:hover {
-    color: #ff5c97
+    color: #46b83b
 }
 
 .visit-area .single-visited .visited-cap p {
@@ -3760,7 +3777,7 @@ hr {
 }
 
 .tips-triks-area .single-tips .tips-caption h4 a:hover {
-    color: #ff5c97
+    color: #42a34a
 }
 
 .tips-triks-area .single-tips .tips-caption span {
@@ -3797,7 +3814,7 @@ hr {
     background-repeat: no-repeat;
     border-radius: 10px;
     position: relative;
-    margin-top:100px;
+    margin-top: 100px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4041,7 +4058,8 @@ hr {
     color: #707b8e
 }
 
-.testimonial-area .testimonial-main:hover::before, .testimonial-area .testimonial-main:hover::after {
+.testimonial-area .testimonial-main:hover::before,
+.testimonial-area .testimonial-main:hover::after {
     color: #c2aff2
 }
 
@@ -4161,7 +4179,7 @@ hr {
 }
 
 .footer-area .footer-tittle ul li a:hover {
-    color: #ff5c97;
+    color: #42a34a;
     padding-left: 5px
 }
 
@@ -4215,7 +4233,7 @@ hr {
 }
 
 .footer-social a:hover {
-    background: #ff5c97
+    background: #42a34a
 }
 
 .footer-social a:hover i {
@@ -4260,7 +4278,7 @@ hr {
 }
 
 .footer-bottom-area .footer-copy-right p a:hover {
-    color: #ff5c97
+    color: #42a34a
 }
 
 .hero-caption span {
@@ -4300,7 +4318,8 @@ hr {
     transition: .4s
 }
 
-.blog_area a:hover, .blog_area a :hover {
+.blog_area a:hover,
+.blog_area a :hover {
     background: -webkit-linear-gradient(131deg, #ff5c97 0%, #ff5c97 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -4746,7 +4765,7 @@ hr {
 }
 
 .blog_details a:hover {
-    color: #ff5c97
+    color: #42a34a
 }
 
 .blog_details h2 {
@@ -4771,7 +4790,8 @@ hr {
     color: #999999
 }
 
-.blog-info-link li i, .blog-info-link li span {
+.blog-info-link li i,
+.blog-info-link li span {
     font-size: 13px;
     margin-right: 5px
 }
@@ -4929,7 +4949,8 @@ hr {
     border-left: 0
 }
 
-.blog_right_sidebar .newsletter_widget .input-group button i, .blog_right_sidebar .newsletter_widget .input-group button span {
+.blog_right_sidebar .newsletter_widget .input-group button i,
+.blog_right_sidebar .newsletter_widget .input-group button span {
     font-size: 14px;
     color: #fff
 }
@@ -5002,7 +5023,7 @@ hr {
 }
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-    background: #ff5c97;
+    background: #42a34a;
     color: #fff !important;
     -webkit-text-fill-color: #fff;
     text-decoration: none;
@@ -5051,7 +5072,8 @@ hr {
     margin-right: 10px
 }
 
-.blog-pagination .page-link i, .blog-pagination .page-link span {
+.blog-pagination .page-link i,
+.blog-pagination .page-link span {
     font-size: 13px
 }
 
@@ -5149,7 +5171,8 @@ hr {
     font-size: 14px
 }
 
-.single-post-area .navigation-top .like-info i, .single-post-area .navigation-top .like-info span {
+.single-post-area .navigation-top .like-info i,
+.single-post-area .navigation-top .like-info span {
     font-size: 16px;
     margin-right: 5px
 }
@@ -5158,7 +5181,8 @@ hr {
     font-size: 14px
 }
 
-.single-post-area .navigation-top .comment-count i, .single-post-area .navigation-top .comment-count span {
+.single-post-area .navigation-top .comment-count i,
+.single-post-area .navigation-top .comment-count span {
     font-size: 16px;
     margin-right: 5px
 }
@@ -5172,7 +5196,8 @@ hr {
     margin: 0
 }
 
-.single-post-area .navigation-top .social-icons li i, .single-post-area .navigation-top .social-icons li span {
+.single-post-area .navigation-top .social-icons li i,
+.single-post-area .navigation-top .social-icons li span {
     font-size: 14px;
     color: #999999
 }
@@ -5209,7 +5234,7 @@ hr {
 }
 
 .single-post-area .blog-author a:hover {
-    color: #ff5c97
+    color: #42a34a
 }
 
 .single-post-area .blog-author p {
@@ -5499,7 +5524,8 @@ hr {
     margin-right: 20px
 }
 
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
     color: #8f9195;
     font-size: 27px
 }
@@ -5888,11 +5914,20 @@ hr {
     font-size: 24px
 }
 
-b, sup, sub, u, del {
+b,
+sup,
+sub,
+u,
+del {
     color: #222
 }
 
-.typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
     color: #828bb2
 }
 
@@ -6185,7 +6220,10 @@ b, sup, sub, u, del {
     display: flex
 }
 
-.progress-table .table-head .serial, .progress-table .table-head .country, .progress-table .table-head .visit, .progress-table .table-head .percentage {
+.progress-table .table-head .serial,
+.progress-table .table-head .country,
+.progress-table .table-head .visit,
+.progress-table .table-head .percentage {
     color: #415094;
     line-height: 40px;
     text-transform: uppercase;
@@ -6198,7 +6236,10 @@ b, sup, sub, u, del {
     display: flex
 }
 
-.progress-table .table-row .serial, .progress-table .table-row .country, .progress-table .table-row .visit, .progress-table .table-row .percentage {
+.progress-table .table-row .serial,
+.progress-table .table-row .country,
+.progress-table .table-row .visit,
+.progress-table .table-row .percentage {
     display: flex;
     align-items: center
 }
@@ -6972,46 +7013,47 @@ b, sup, sub, u, del {
     margin-bottom: 10px
 }
 
-.whatsapp-api-link{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:90px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+.whatsapp-api-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 90px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
 }
 
-.whatsapp-api{
-	margin-top:16px;
+.whatsapp-api {
+    margin-top: 16px;
 }
 
 .singup-form textarea {
-	height: 140px;
-	padding: 15px 28px 10px;
-	border-radius: 20px;
-	resize: none;
-}
-.contact-form {
-	padding-top: 10px;
+    height: 140px;
+    padding: 15px 28px 10px;
+    border-radius: 20px;
+    resize: none;
 }
 
-.feature-area figcaption h2{
+.contact-form {
+    padding-top: 10px;
+}
+
+.feature-area figcaption h2 {
     font-size: 40px;
 }
 
-.btn-slide-left{
+.btn-slide-left {
     position: absolute;
     width: 50px;
-    top:300px;
-    left:0;
-    margin:20px;
-    background-color: rgba(0, 0, 0, 0.0); 
+    top: 300px;
+    left: 0;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.0);
     border: none;
     border-radius: 20px;
     padding: 15px;
@@ -7021,13 +7063,13 @@ b, sup, sub, u, del {
     font-size: 40px;
 }
 
-.btn-slide-right{
+.btn-slide-right {
     position: absolute;
     width: 50px;
-    top:300px;
+    top: 300px;
     right: 0;
-    margin:20px;
-    background-color: rgba(0, 0, 0, 0.0); 
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.0);
     border: none;
     border-radius: 20px;
     padding: 15px;

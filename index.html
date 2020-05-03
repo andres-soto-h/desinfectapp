@@ -23,20 +23,15 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
 
-
     <header>
-
-
-
-        <a href="https://api.whatsapp.com/send?phone=573134123712&text=Hola, quisiera conocer más sobre sus servicios de desinfección."
-            class="whatsapp-api-link" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=573134123712&text=Hola, quisiera conocer más sobre sus servicios de desinfección." class="whatsapp-api-link" target="_blank">
             <i class="fa fa-whatsapp whatsapp-api"></i>
         </a>
 
@@ -48,9 +43,9 @@
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2 col-md-1">
                             <div class="" style="color:black !important;">
-                                <h4>Desinfect<strong>app</strong></h4>
-                                <a href="index.html">
-                                    <!--<img src="assets/img/logo/logo.png" alt="">--></a>
+                                <a href="#inicio">
+                                    <h4>Desinfect<strong>app</strong></h4>
+                                </a>
                             </div>
                         </div>
                         <div class="col-xl-8 col-lg-8 col-md-8">
@@ -58,16 +53,17 @@
                             <div class="main-menu f-right d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="/">Inicio</a></li>
-                                        <li><a href="about.html">Nosotros</a></li>
-                                        <li><a href="services.html">Servicios</a></li>
+                                        <li><a href="#inicio">Inicio</a></li>
+                                        <li><a href="#vehiculos">Vehículos</a></li>
+                                        <li><a href="#espacios">Espacios</a></li>
+                                        <li><a href="#Blog">Blog</a></li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-2 col-md-3">
                             <div class="header-right-btn f-right d-none d-lg-block">
-                                <a href="#" class="btn header-btn">Contacto</a>
+                                <a href="#contacto" class="btn header-btn">Contacto</a>
                             </div>
                         </div>
                         <!-- Mobile Menu -->
@@ -84,10 +80,9 @@
     <main>
 
         <!-- Slider Area Start-->
-        <div class="slider-area ">
+        <div class="slider-area" id="inicio">
             <div class="slider-active">
-                <div class="single-slider slider-height d-flex align-items-center"
-                    data-background="assets/img/hero/h1_hero.png">
+                <div class="single-slider slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.png">
                     <div class="container">
                         <div class="row d-flex align-items-center">
 
@@ -99,12 +94,11 @@
 
                             <div class="col-lg-7 col-md-9">
                                 <div class="hero__caption">
-                                    <h1 data-animation="fadeInRight" data-delay=".4s">Soluciones de desinfección</h1>
-                                    <p data-animation="fadeInRight" data-delay=".6s">Prestamos el servicio de desinfección de casas, carros, espacios y comercializamos 
-                                        productos certificados por la OMS</p>
+                                    <h1 data-animation="fadeInRight" data-delay=".4s">Soluciones que se adaptan a ti</h1>
+                                    <p data-animation="fadeInRight" data-delay=".6s">Prestamos el servicio de desinfección de casas, carros, espacios y comercializamos productos certificados por la OMS</p>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn" data-animation="fadeInRight" data-delay=".8s">
-                                        <a href="#" class="btn hero-btn">Contactanos!</a>
+                                        <a href="#contacto" class="btn hero-btn">Contactanos!</a>
                                     </div>
                                 </div>
                             </div>
@@ -113,8 +107,7 @@
                     </div>
                 </div>
 
-                <div class="single-slider slider-height d-flex align-items-center"
-                    data-background="assets/img/hero/h1_hero.png">
+                <div class="single-slider slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.png">
                     <div class="container">
                         <div class="row d-flex align-items-center">
                             <div class="col-lg-5">
@@ -125,13 +118,12 @@
 
                             <div class="col-lg-7 col-md-9 ">
                                 <div class="hero__caption">
-                                    <h1 data-animation="fadeInRight" data-delay=".4s">Soluciones de desinfección
+                                    <h1 data-animation="fadeInRight" data-delay=".4s">Desinfección periodica
                                     </h1>
-                                    <p data-animation="fadeInRight" data-delay=".6s">Manejamos suscripciones mensuales para desinfectar periodicamente 
-                                        tus espacios, y te damos descuentos por cada cliente referido</p>
+                                    <p data-animation="fadeInRight" data-delay=".6s">Manejamos suscripciones mensuales para desinfectar periodicamente tus espacios, y te damos descuentos por cada cliente referido</p>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn" data-animation="fadeInRight" data-delay=".8s">
-                                        <a href="#" class="btn hero-btn">Contactanos!</a>
+                                        <a href="#contacto" class="btn hero-btn">Contactanos!</a>
                                     </div>
                                 </div>
                             </div>
@@ -140,38 +132,86 @@
                     </div>
                 </div>
 
-                <div class="single-slider slider-height d-flex align-items-center"
-                data-background="assets/img/hero/h1_hero.png">
-                <div class="container">
-                    <div class="row d-flex align-items-center">
+                <div class="single-slider slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.png">
+                    <div class="container">
+                        <div class="row d-flex align-items-center">
 
-                        <div class="col-lg-5">
-                            <div class="hero__img d-lg-block" data-animation="pulse  " data-delay="1s">
-                                <img src="assets/img/hero/covid-19d.svg" alt="">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-7 col-md-9">
-                            <div class="hero__caption">
-                                <h1 data-animation="fadeInRight" data-delay=".4s">Soluciones de desinfección</h1>
-                                <p data-animation="fadeInRight" data-delay=".6s">Tenemos dos tipos de desinfección: por aspersión y por vaporización, que elimina el 99% de las bacterias</p>
-                                <p data-animation="fadeInRight" data-delay=".6s" style="font-weight: 300; font-size:130px; color: rgba(0, 0, 0, 0.1);">99%</p>
-                                <!-- Hero-btn -->
-                                <div class="hero__btn" data-animation="fadeInRight" data-delay=".8s">
-                                    <a href="#" class="btn hero-btn">Contactanos!</a>
+                            <div class="col-lg-5">
+                                <div class="hero__img d-lg-block" data-animation="pulse  " data-delay="1s">
+                                    <img src="assets/img/hero/covid-19d.svg" alt="">
                                 </div>
                             </div>
-                        </div>
 
+                            <div class="col-lg-7 col-md-9">
+                                <div class="hero__caption">
+                                    <h1 data-animation="fadeInRight" data-delay=".4s">Alta Efectividad</h1>
+                                    <p data-animation="fadeInRight" data-delay=".6s">Tenemos dos tipos de desinfección: por aspersión y por vaporización, que elimina el 99% de las bacterias</p>
+                                    <p data-animation="fadeInRight" data-delay=".6s" style="font-weight: 300; font-size:130px; color: rgba(0, 0, 0, 0.1);">99%</p>
+                                    <!-- Hero-btn -->
+                                    <div class="hero__btn" data-animation="fadeInRight" data-delay=".8s">
+                                        <a href="#contacto" class="btn hero-btn">Contactanos!</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-
 
             </div>
         </div>
         <!-- Slider Area End-->
+
+        <!-- cars Start -->
+        <div class="we-create-area create-padding" id="vehiculos">
+            <div class="container">
+                <div class="row d-flex align-items-end">
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="we-create-cap">
+                            <h3>Desinfección de vehículos</h3>
+                            <p>Desinfectamos tu vehiculo por vaporización, no mancha, ni deja olor, trabajamos a domicilio o en nuestro local ubicado frente al exito del poblado en la ciudad de Medellin <strong>Calle 10 # 43F - 14</strong></p>
+                            <div class="hero__btn" data-animation="fadeInRight" data-delay=".8s">
+                                <a href="#contacto" class="btn hero-btn">Contactanos!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="we-create-img">
+                            <img src="assets/img/hero/lavado-coches.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- cars End -->
+
+        <!-- indoor Start -->
+        <div class="we-create-area create-padding" id="espacios">
+            <div class="container">
+                <div class="row d-flex align-items-end">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="we-create-img">
+                            <img src="assets/img/hero/burbuja.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="we-create-cap">
+                            <h3>Desinfección de espacios</h3>
+                            <p>Desinfectamos tu hogar, oficina, local o urbanización con sustancias activas certificadas por la <strong>OMS</strong> (Organización mundial de la salud), siguiendo los mas altos estandares de seguridad</p>
+                            <div class="hero__btn" data-animation="fadeInRight" data-delay=".8s">
+                                <a href="#contacto" class="btn hero-btn">Contactanos!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- indoor End -->
+
+
+        <div id="contacto"></div>
 
         <!-- have-project Start-->
         <div class="have-project">
@@ -186,28 +226,28 @@
                         </div>
                         <div class="col-xl-5 col-lg-5 col-md-12">
 
-                                <form>
-                                    <div class="form-group">
-                                      <label for="exampleInputEmail1">Correo electrónico</label>
-                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="alguien@micorreo.com">
-                                    </div>
-                                    <div class="form-group">
-                                      <label for="telefono">Teléfono</label>
-                                      <input type="text" class="form-control" id="telefono" placeholder="(3)(4)12345678">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="direccion">Dirección</label>
-                                        <input type="text" class="form-control" id="direccion" placeholder="Carrera 12 # 34 - 56, Medellin">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="mensaje">Mensaje</label>
-                                        <textarea class="form-control" id="mensaje" rows="3"></textarea>
-                                      </div>
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Correo electrónico</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="alguien@micorreo.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="telefono">Teléfono</label>
+                                    <input type="text" class="form-control" id="telefono" placeholder="(3)(4)12345678">
+                                </div>
+                                <div class="form-group">
+                                    <label for="direccion">Dirección</label>
+                                    <input type="text" class="form-control" id="direccion" placeholder="Carrera 12 # 34 - 56, Medellin">
+                                </div>
+                                <div class="form-group">
+                                    <label for="mensaje">Mensaje</label>
+                                    <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                                </div>
 
-                                    <a href="#" class="btn btn-ans btn-block">Enviar</a>
-                                    
-                                  </form>
-                         
+                                <a href="#" class="btn btn-ans btn-block">Enviar</a>
+
+                            </form>
+
                         </div>
                     </div>
                 </div>
@@ -289,10 +329,11 @@
                                     <p>
                                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                         Copyright &copy;
-                                        <script>document.write(new Date().getFullYear());</script> All rights reserved |
-                                        This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a
-                                            href="https://colorlib.com" target="_blank">Colorlib</a>
+                                        <script>
+                                            document.write(new Date().getFullYear());
+                                        </script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                        Iconos diseñados por <a href="https://www.flaticon.es/autores/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
                                     </p>
                                 </div>
                             </div>
