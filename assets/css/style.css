@@ -3829,7 +3829,7 @@ hr {
     background-repeat: no-repeat;
     border-radius: 10px;
     position: relative;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
